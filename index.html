@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Random Key Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Random Key</h2>
+        <form accept="">
+            <div class="value">Min Length 6 & Max Length 22</div>
+            <span class="copy">click up to copy Key</span>
+            <div class="box">
+                <label for="length">Length</label>
+                <input type="number" name="length" id="length" value="16" min="6" max="22">
+            </div>
+            <div class="box">
+                <label for="capital">Capital Letters</label>
+                <input type="checkbox" name="capital" id="capital" checked>
+            </div>
+            <div class="box">
+                <label for="small">Small Letters</label>
+                <input type="checkbox" name="small" id="small" checked>
+            </div>
+            <div class="box">
+                <label for="number">Numbers</label>
+                <input type="checkbox" name="number" id="number">
+            </div>
+            <div class="box">
+                <label for="special">Special Char</label>
+                <input type="checkbox" name="special" id="special">
+            </div>
+            <div class="btn">
+                <input id="btn" type="button" value="Generate">
+            </div>
+        </form>
+    </div>
+    <div class="copyright">Copyright &copy Shireff Nady 2023</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
